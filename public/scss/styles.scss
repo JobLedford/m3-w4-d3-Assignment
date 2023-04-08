@@ -1,6 +1,6 @@
 @import "colors.scss";
 @import "nav.scss";
-
+@import "form.scss";
 /* Variables */
 $fontFamily1: Arial, Helvetica, Sans-Serif;
 $fontFamily2: 'Sacramento', cursive;
@@ -45,11 +45,8 @@ main {
         text-align:center;
         font-size: 2em;
       }
-      form {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+      .form-registration {
+        width:25%;
       }
     }
 

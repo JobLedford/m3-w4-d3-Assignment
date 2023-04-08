@@ -21,6 +21,68 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+body {
+  padding: 40px 10px;
+  background-color: #eee;
+}
+
+.listing-reg h1 {
+  text-align: center;
+  margin: 0 0 2rem;
+}
+
+.form-registration {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-registration input {
+  width: 100%;
+  margin: 0px 0 10px;
+}
+.form-registration .btn {
+  flex: 1 0 100%;
+}
+
+.my-errors {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  color: #333;
+  font-size: 1.2rem;
+  display: table;
+}
+.my-errors li {
+  margin: 0 0 1rem;
+}
+.my-errors li:before {
+  content: "! Error : ";
+  color: #f00;
+  font-weight: bold;
+}
+
+.listing-table {
+  width: 100%;
+}
+.listing-table th {
+  padding: 10px;
+  border-bottom: 1px solid #666;
+  background: #000;
+  color: #fff;
+}
+.listing-table th:first-child {
+  border-right: 1px solid #666;
+}
+.listing-table td {
+  padding: 10px;
+  border-bottom: 1px solid #666;
+}
+.listing-table td:first-child {
+  border-right: 1px solid #666;
+}
+
 /* Variables */
 html {
   font-size: 1em;
@@ -56,11 +118,8 @@ main #intro-image h1 {
   text-align: center;
   font-size: 2em;
 }
-main #intro-image form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+main #intro-image .form-registration {
+  width: 25%;
 }
 main #intro-text {
   width: 550px;
